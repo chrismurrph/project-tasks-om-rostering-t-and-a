@@ -5,9 +5,9 @@
 1. ERD from TH
 
 2. Incorporate: 
-..* Location 
-..* Different roster slots (obviously a library has different shifts than TH) 
-..* Roles 
+  * Location 
+  * Different roster slots (obviously a library has different shifts than TH) 
+  * Roles 
 
 3. Put TH test data in a DataScript database. (Memory only, CLJS)
 
