@@ -6,8 +6,17 @@
 
 2. Incorporate: 
   * Location 
-  * Different roster slots (obviously a library has different shifts than TH) 
+  * Different roster-slots (obviously a lending library has different shifts than TH) 
   * Roles 
+  * Budget hours and money as well as actual (hours and money) 
+  * Loadings 'immutably attached' to roster-slots or not??
+  * Actual hours and approval of the weekly timesheet 
+  * For each particular shift (thus roster-slot) must be possible to be allocated to multiple Cost Centres on %age basis??
+  * Cost Centre and Location are one in the same presumably??
+  * We have assumed leave-days and flex-days, but maybe can be more granular - so an afternoon off?? (called holidays on TH system)
+  * Even while a roster-slot is current (i.e. a Worker is currently doing a shift), it should be able to be changed into a different type of roster slot. 
+  * Can a roster slot (shift) be corrected even days after?? No reason why the system should not allow this.
+  * Actual hours worked may be different to rostered hours. This mechanism would be for non-approved variations. 
 
 3. Put TH test data in a DataScript database. (Memory only, CLJS)
 
