@@ -4,7 +4,7 @@
 
 1. ERD from TH
 
-2. Incorporate: 
+2. Incorporate into ERD: 
   * Location 
   * Different roster-slots (obviously a lending library has different shifts than TH) 
   * Roles 
@@ -17,6 +17,7 @@
   * Even while a roster-slot is current (i.e. a Worker is currently doing a shift), it should be able to be changed into a different type of roster slot. 
   * Can a roster slot (shift) be corrected even days after?? No reason why the system should not allow this.
   * Actual hours worked may be different to rostered hours. This mechanism would be for non-approved variations. 
+  * Alerts to users, and their acknowledement
 
 3. Put TH test data in a DataScript database. (Memory only, CLJS)
 
